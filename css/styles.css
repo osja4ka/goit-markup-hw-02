@@ -1,0 +1,77 @@
+:root {
+    --base-text-color: #212121;
+    --on-background-text-color: #FFFFFF;
+    --accent-color: #2196f3;
+    --paragraph-color: #757575;
+    --light-grey-color: #F5F4FA;
+}
+
+
+/*base text color black #212121 
+white #FFFFFF 
+accent  #2196F3 
+text grey #757575 
+bckgr lightgrey #F5F4FA
+footer bckr darkgrey #2F303A
+footer text color: rgba(255, 255, 255, 0.6);
+
+*/
+/*body*/
+.page {background-color: #FFFFFF;color: #212121;}
+.list {list-style: none;}
+a{text-decoration: none;}
+
+/*buttons*/
+.button {color: var(--on-background-text-color);
+background-color: var(--accent-color);}
+
+/*logo*/
+.logo {color: var(--base-text-color);}
+.web {color: var(--accent-color);}
+.logo:hover,
+.logo:focus {color: #757575;}
+
+
+/*header*/
+.site-nav a {color: var(--base-text-color);}
+.site-nav a:hover,
+.site-nav a:focus {color: var(--accent-color);}
+
+
+.contacts a {color: var(--paragraph-color);}
+.contacts a:hover,
+.contacts a:focus {color: var(--accent-color);}
+
+/*hero*/
+.hero {background-color: #757575;}
+.hero-title {color: var(--on-background-text-color); text-align: center;}
+.hero a {color: var(--on-background-text-color);}
+
+/*sections*/
+.section title{color: var(--base-text-color);}
+.section p{color: var(--paragraph-color);}
+
+/*section specializing*/
+.specializing {background-color: #757575;}
+.specializing a {color: var(--on-background-text-color);}
+
+
+/*section team*/
+.team {background-color: #F5F4FA;}
+.list a{text-decoration: none;}
+
+/*footer*/
+.footer {background-color: #2F303A;}
+.footer.list a{color: rgba(255, 255, 255, 0.6);;}
+.studio-footer {color: #ffffff;}
+.footer address {color: #ffffff;} 
+.footer strong {color: #ffffff;}
+
+
+/*copyright*/
+.copyright {color: rgba(255, 255, 255, 0.6);}
+
+
+
+
+/*PORTFOLIO*/
