@@ -17,7 +17,9 @@ footer text color: rgba(255, 255, 255, 0.6);
 
 */
 /*body*/
-.page {background-color: #FFFFFF;color: #212121;}
+.page {background-color: #FFFFFF;
+    color: #212121;
+    font-family: 'Roboto', sans-serif;}
 .list {list-style: none;}
 a{text-decoration: none;}
 
@@ -36,7 +38,7 @@ background-color: var(--accent-color);}
 .site-nav a {color: var(--base-text-color);}
 .site-nav a:hover,
 .site-nav a:focus {color: var(--accent-color);}
-
+.site-nav .link.current {color: var(--accent-color);}
 
 .contacts a {color: var(--paragraph-color);}
 .contacts a:hover,
@@ -75,3 +77,6 @@ background-color: var(--accent-color);}
 
 
 /*PORTFOLIO*/
+.example-item a{color: inherit}
+.example-description {color: var(--on-background-text-color);
+background-color: var(--accent-color);}
